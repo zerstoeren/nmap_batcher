@@ -52,20 +52,20 @@ Usage:
 ======
 
 ```bash
-root@docker# ./niktobatcher.py -ip x.x.x.x -params1 sT
-root@docker# ./niktobatcher.py -ip x.x.x.x -params1 sT -params2 sV -output oX
-root@docker# ./niktobatcher.py -netrange x.x.x.x/24 -params1 sT -output oG -output_file file.txt
-root@docker# ./niktobatcher.py -target_file targets.txt -params1 sV
+root@docker# ./nmapbatcher.py -ip x.x.x.x -params1 sT
+root@docker# ./nmapbatcher.py -ip x.x.x.x -params1 sT -params2 sV -output oX
+root@docker# ./nmapbatcher.py -netrange x.x.x.x/24 -params1 sT -output oG -output_file file.txt
+root@docker# ./nmapbatcher.py -target_file targets.txt -params1 sV
 ```
   
 Example
 ===
 
 ```bash
-root@docker# ./niktobatcher.py -ip x.x.x.x -params1 sT
-root@docker# ./niktobatcher.py -ip x.x.x.x -params1 sT -params2 sV -output oX
-root@docker# ./niktobatcher.py -netrange x.x.x.x/24 -params1 sT -output oG -output_file file.txt
-root@docker# ./niktobatcher.py -target_file targets.txt -params1 sV
+root@docker# ./nmapbatcher.py -ip x.x.x.x -params1 sT
+root@docker# ./nmapbatcher.py -ip x.x.x.x -params1 sT -params2 sV -output oX
+root@docker# ./nmapbatcher.py -netrange x.x.x.x/24 -params1 sT -output oG -output_file file.txt
+root@docker# ./nmapbatcher.py -target_file targets.txt -params1 sV
 ```
 
 Bugs
